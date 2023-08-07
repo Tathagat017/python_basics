@@ -5,5 +5,5 @@ for i in numbers:
     if i%5==0:
         if i>150:
             continue
-        if i<150:
+        if i<=150:
             print(i)
