@@ -1,6 +1,9 @@
-rows = 15
-
-for i in range(1, rows + 1):
-    for j in range(1, i + 1):
-        print(j, end=" ")
-    print()
+numbers = [12, 75, 150, 180, 145, 525, 50];
+for i in numbers:
+    if i>500:
+        break
+    if i%5==0:
+        if i>150:
+            continue
+        if i<150:
+            print(i)
